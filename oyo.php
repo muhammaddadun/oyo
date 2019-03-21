@@ -53,7 +53,7 @@ curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
 curl_setopt($ch, CURLOPT_POSTFIELDS, '{
 	"truecaller": false,
 	"code": "'.$otp.'",
-	"country_code": "+62",
+	"country_code": "+1",
 	"device_id": "'.generateRandomString(16).'",
 	"device_type": "android",
 	"email": "'.generateRandomString(10).'@gmail.com",
@@ -62,7 +62,7 @@ curl_setopt($ch, CURLOPT_POSTFIELDS, '{
 	"name": "'.generateRandomString(10).'",
 	"phone": "'.$phone_number.'",
 	"push_type": "gcm",
-	"referral_code": "DIDIQIR7C",
+	"referral_code": "",
 	"token": "c-PeIXwYYwg:APA91bHHQLHnS0FvSIOYJpN-hBJXYHxc1xQh8FrMZaQawBVPVyXxk77vTz7LWC4rtApBrZb3p4pOwJRD2JBMq0u3sChUgpasQFGcN_HNAGCscrcREwL-trFIBX3votCcFY1bn7eBmuCd",
 	"updated_at": 0
 }');
